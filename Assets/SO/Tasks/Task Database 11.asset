@@ -1,0 +1,126 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7673aa27664812140be3c5bd283638fc, type: 3}
+  m_Name: Task Database 11
+  m_EditorClassIdentifier: Assembly-CSharp::TaskDatabase
+  tasks:
+  - rid: 8019473286241190038
+  - rid: 8019473286241190039
+  - rid: 8019473286241190040
+  - rid: 8019473286241190041
+  - rid: 8019473286241190042
+  - rid: 8019473286241190043
+  - rid: 8019473286241190044
+  - rid: 8019473286241190045
+  isRandom: 1
+  references:
+    version: 2
+    RefIds:
+    - rid: 8019473286241190038
+      type: {class: SingleChoiceTaskEntry, ns: , asm: Assembly-CSharp}
+      data:
+        question: "\u0427\u0442\u043E \u0432\u044B\u0432\u0435\u0434\u0435\u0442
+          \u044D\u0442\u043E\u0442 \u043A\u043E\u0434?\nprint(3 + 4 * 2)"
+        options:
+        - 14
+        - 11
+        - 10
+        - 8
+        correctIndex: 1
+    - rid: 8019473286241190039
+      type: {class: SequenceTaskEntry, ns: , asm: Assembly-CSharp}
+      data:
+        question: "\u0420\u0430\u0437\u0431\u0435\u0440\u0438 \u0432\u044B\u043F\u043E\u043B\u043D\u0435\u043D\u0438\u0435
+          \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u044B:\nx = 12\ny = 5\nz
+          = x // y\nprint(z)"
+        options:
+        - "\u041F\u0440\u0438\u0441\u0432\u043E\u0438\u0442\u044C x = 12"
+        - "\u041F\u0440\u0438\u0441\u0432\u043E\u0438\u0442\u044C y = 5"
+        - "\u0412\u044B\u043F\u043E\u043B\u043D\u0438\u0442\u044C \u0446\u0435\u043B\u043E\u0447\u0438\u0441\u043B\u0435\u043D\u043D\u043E\u0435
+          \u0434\u0435\u043B\u0435\u043D\u0438\u0435"
+        - "\u0412\u044B\u0432\u0435\u0441\u0442\u0438 z"
+        - "\u0421\u043E\u0437\u0434\u0430\u0442\u044C \u043F\u0435\u0440\u0435\u043C\u0435\u043D\u043D\u044B\u0435"
+        correctOrder: 00000000010000000200000003000000
+    - rid: 8019473286241190040
+      type: {class: SingleChoiceTaskEntry, ns: , asm: Assembly-CSharp}
+      data:
+        question: "\u0427\u0442\u043E \u0432\u044B\u0432\u0435\u0434\u0435\u0442
+          \u044D\u0442\u043E\u0442 \u043A\u043E\u0434?\nprint(\"a\" + \"b\" + \"c\")"
+        options:
+        - abc
+        - a b c
+        - ab c
+        - "\u041E\u0448\u0438\u0431\u043A\u0430"
+        correctIndex: 0
+    - rid: 8019473286241190041
+      type: {class: SequenceTaskEntry, ns: , asm: Assembly-CSharp}
+      data:
+        question: "\u0420\u0430\u0437\u0431\u0435\u0440\u0438 \u0432\u044B\u043F\u043E\u043B\u043D\u0435\u043D\u0438\u0435
+          \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u044B:\na = [9, 1, 4]\na.sort()\nprint(a[0])"
+        options:
+        - "\u0421\u043E\u0437\u0434\u0430\u0442\u044C \u0441\u043F\u0438\u0441\u043E\u043A"
+        - "\u041E\u0442\u0441\u043E\u0440\u0442\u0438\u0440\u043E\u0432\u0430\u0442\u044C
+          \u0441\u043F\u0438\u0441\u043E\u043A"
+        - "\u041F\u043E\u043B\u0443\u0447\u0438\u0442\u044C \u043F\u0435\u0440\u0432\u044B\u0439
+          \u044D\u043B\u0435\u043C\u0435\u043D\u0442"
+        - "\u0412\u044B\u0432\u0435\u0441\u0442\u0438 \u0440\u0435\u0437\u0443\u043B\u044C\u0442\u0430\u0442"
+        - "\u0414\u043E\u0431\u0430\u0432\u0438\u0442\u044C \u044D\u043B\u0435\u043C\u0435\u043D\u0442"
+        correctOrder: 00000000010000000200000003000000
+    - rid: 8019473286241190042
+      type: {class: SingleChoiceTaskEntry, ns: , asm: Assembly-CSharp}
+      data:
+        question: "\u0427\u0442\u043E \u0432\u044B\u0432\u0435\u0434\u0435\u0442
+          \u044D\u0442\u043E\u0442 \u043A\u043E\u0434?\nx = 6\nprint(x == 6)"
+        options:
+        - True
+        - False
+        - 6
+        - "\u041E\u0448\u0438\u0431\u043A\u0430"
+        correctIndex: 0
+    - rid: 8019473286241190043
+      type: {class: SequenceTaskEntry, ns: , asm: Assembly-CSharp}
+      data:
+        question: "\u0420\u0430\u0437\u0431\u0435\u0440\u0438 \u0432\u044B\u043F\u043E\u043B\u043D\u0435\u043D\u0438\u0435
+          \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u044B:\nx = 2\ny = 8\nz
+          = y - x\nprint(z)"
+        options:
+        - "\u041F\u0440\u0438\u0441\u0432\u043E\u0438\u0442\u044C x = 2"
+        - "\u041F\u0440\u0438\u0441\u0432\u043E\u0438\u0442\u044C y = 8"
+        - "\u0412\u044B\u0447\u0438\u0441\u043B\u0438\u0442\u044C y - x"
+        - "\u0412\u044B\u0432\u0435\u0441\u0442\u0438 z"
+        - "\u0421\u043E\u0437\u0434\u0430\u0442\u044C \u043F\u0435\u0440\u0435\u043C\u0435\u043D\u043D\u044B\u0435"
+        correctOrder: 00000000010000000200000003000000
+    - rid: 8019473286241190044
+      type: {class: SingleChoiceTaskEntry, ns: , asm: Assembly-CSharp}
+      data:
+        question: "\u0427\u0442\u043E \u0432\u044B\u0432\u0435\u0434\u0435\u0442
+          \u044D\u0442\u043E\u0442 \u043A\u043E\u0434?\nprint(10 / 4)"
+        options:
+        - 2
+        - 2.5
+        - 3
+        - "\u041E\u0448\u0438\u0431\u043A\u0430"
+        correctIndex: 1
+    - rid: 8019473286241190045
+      type: {class: SequenceTaskEntry, ns: , asm: Assembly-CSharp}
+      data:
+        question: "\u0420\u0430\u0437\u0431\u0435\u0440\u0438 \u0432\u044B\u043F\u043E\u043B\u043D\u0435\u043D\u0438\u0435
+          \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u044B:\ntext = \"code\"\nprint(text[-1])"
+        options:
+        - "\u0421\u043E\u0437\u0434\u0430\u0442\u044C \u0441\u0442\u0440\u043E\u043A\u0443"
+        - "\u041F\u043E\u043B\u0443\u0447\u0438\u0442\u044C \u043F\u043E\u0441\u043B\u0435\u0434\u043D\u0438\u0439
+          \u0441\u0438\u043C\u0432\u043E\u043B"
+        - "\u041F\u043E\u043B\u0443\u0447\u0438\u0442\u044C \u0434\u043B\u0438\u043D\u0443
+          \u0441\u0442\u0440\u043E\u043A\u0438"
+        - "\u0412\u044B\u0432\u0435\u0441\u0442\u0438 \u0440\u0435\u0437\u0443\u043B\u044C\u0442\u0430\u0442"
+        - "\u0420\u0430\u0437\u0434\u0435\u043B\u0438\u0442\u044C \u0441\u0442\u0440\u043E\u043A\u0443"
+        correctOrder: 000000000100000003000000

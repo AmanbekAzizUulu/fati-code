@@ -1,0 +1,131 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7673aa27664812140be3c5bd283638fc, type: 3}
+  m_Name: Task Database 12
+  m_EditorClassIdentifier: Assembly-CSharp::TaskDatabase
+  tasks:
+  - rid: 8019473286241190046
+  - rid: 8019473286241190047
+  - rid: 8019473286241190048
+  - rid: 8019473286241190049
+  - rid: 8019473286241190050
+  - rid: 8019473286241190051
+  - rid: 8019473286241190052
+  - rid: 8019473286241190053
+  isRandom: 1
+  references:
+    version: 2
+    RefIds:
+    - rid: 8019473286241190046
+      type: {class: SingleChoiceTaskEntry, ns: , asm: Assembly-CSharp}
+      data:
+        question: "\u0427\u0442\u043E \u0432\u044B\u0432\u0435\u0434\u0435\u0442
+          \u044D\u0442\u043E\u0442 \u043A\u043E\u0434?\nprint((2 + 3) * (4 - 1))"
+        options:
+        - 15
+        - 20
+        - 12
+        - 9
+        correctIndex: 0
+    - rid: 8019473286241190047
+      type: {class: SequenceTaskEntry, ns: , asm: Assembly-CSharp}
+      data:
+        question: "\u0420\u0430\u0437\u0431\u0435\u0440\u0438 \u0432\u044B\u043F\u043E\u043B\u043D\u0435\u043D\u0438\u0435
+          \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u044B:\nx = 5\ny = 10\nz
+          = x * y\nw = z - x\nprint(w)"
+        options:
+        - "\u041F\u0440\u0438\u0441\u0432\u043E\u0438\u0442\u044C x = 5"
+        - "\u041F\u0440\u0438\u0441\u0432\u043E\u0438\u0442\u044C y = 10"
+        - "\u0412\u044B\u0447\u0438\u0441\u043B\u0438\u0442\u044C z = x * y"
+        - "\u0412\u044B\u0447\u0438\u0441\u043B\u0438\u0442\u044C w = z - x"
+        - "\u0412\u044B\u0432\u0435\u0441\u0442\u0438 w"
+        correctOrder: 0000000001000000020000000300000004000000
+    - rid: 8019473286241190048
+      type: {class: SingleChoiceTaskEntry, ns: , asm: Assembly-CSharp}
+      data:
+        question: "\u0427\u0442\u043E \u0432\u044B\u0432\u0435\u0434\u0435\u0442
+          \u044D\u0442\u043E\u0442 \u043A\u043E\u0434?\nx = \"123\"\nprint(int(x)
+          + 7)"
+        options:
+        - 130
+        - 1237
+        - 7
+        - "\u041E\u0448\u0438\u0431\u043A\u0430"
+        correctIndex: 0
+    - rid: 8019473286241190049
+      type: {class: SequenceTaskEntry, ns: , asm: Assembly-CSharp}
+      data:
+        question: "\u0420\u0430\u0437\u0431\u0435\u0440\u0438 \u0432\u044B\u043F\u043E\u043B\u043D\u0435\u043D\u0438\u0435
+          \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u044B:\nnums = [10, 20,
+          30]\nnums.append(40)\nprint(nums[3])"
+        options:
+        - "\u0421\u043E\u0437\u0434\u0430\u0442\u044C \u0441\u043F\u0438\u0441\u043E\u043A"
+        - "\u0414\u043E\u0431\u0430\u0432\u0438\u0442\u044C \u044D\u043B\u0435\u043C\u0435\u043D\u0442
+          \u0432 \u0441\u043F\u0438\u0441\u043E\u043A"
+        - "\u041F\u043E\u043B\u0443\u0447\u0438\u0442\u044C \u0447\u0435\u0442\u0432\u0451\u0440\u0442\u044B\u0439
+          \u044D\u043B\u0435\u043C\u0435\u043D\u0442"
+        - "\u0412\u044B\u0432\u0435\u0441\u0442\u0438 \u0440\u0435\u0437\u0443\u043B\u044C\u0442\u0430\u0442"
+        - "\u0423\u0434\u0430\u043B\u0438\u0442\u044C \u044D\u043B\u0435\u043C\u0435\u043D\u0442"
+        correctOrder: 00000000010000000200000003000000
+    - rid: 8019473286241190050
+      type: {class: SingleChoiceTaskEntry, ns: , asm: Assembly-CSharp}
+      data:
+        question: "\u0427\u0442\u043E \u0432\u044B\u0432\u0435\u0434\u0435\u0442
+          \u044D\u0442\u043E\u0442 \u043A\u043E\u0434?\nx = 3\ny = 4\nprint(x < y
+          and y > 5)"
+        options:
+        - True
+        - False
+        - "\u041E\u0448\u0438\u0431\u043A\u0430"
+        - None
+        correctIndex: 1
+    - rid: 8019473286241190051
+      type: {class: SequenceTaskEntry, ns: , asm: Assembly-CSharp}
+      data:
+        question: "\u0420\u0430\u0437\u0431\u0435\u0440\u0438 \u0432\u044B\u043F\u043E\u043B\u043D\u0435\u043D\u0438\u0435
+          \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u044B:\nx = 8\ny = 3\nz
+          = x / y\nw = int(z)\nprint(w)"
+        options:
+        - "\u041F\u0440\u0438\u0441\u0432\u043E\u0438\u0442\u044C x = 8"
+        - "\u041F\u0440\u0438\u0441\u0432\u043E\u0438\u0442\u044C y = 3"
+        - "\u0412\u044B\u043F\u043E\u043B\u043D\u0438\u0442\u044C \u0434\u0435\u043B\u0435\u043D\u0438\u0435"
+        - "\u041F\u0440\u0438\u0432\u0435\u0441\u0442\u0438 \u0440\u0435\u0437\u0443\u043B\u044C\u0442\u0430\u0442
+          \u043A int"
+        - "\u0412\u044B\u0432\u0435\u0441\u0442\u0438 w"
+        correctOrder: 0000000001000000020000000300000004000000
+    - rid: 8019473286241190052
+      type: {class: SingleChoiceTaskEntry, ns: , asm: Assembly-CSharp}
+      data:
+        question: "\u0427\u0442\u043E \u0432\u044B\u0432\u0435\u0434\u0435\u0442
+          \u044D\u0442\u043E\u0442 \u043A\u043E\u0434?\nprint(\"abc\" * 2 + \"d\")"
+        options:
+        - abcd
+        - abcabc
+        - abcabcd
+        - a b c d
+        correctIndex: 2
+    - rid: 8019473286241190053
+      type: {class: SequenceTaskEntry, ns: , asm: Assembly-CSharp}
+      data:
+        question: "\u0420\u0430\u0437\u0431\u0435\u0440\u0438 \u0432\u044B\u043F\u043E\u043B\u043D\u0435\u043D\u0438\u0435
+          \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u044B:\na = [2, 4, 6]\nb
+          = a\nb[0] = 10\nprint(a[0])"
+        options:
+        - "\u0421\u043E\u0437\u0434\u0430\u0442\u044C \u0441\u043F\u0438\u0441\u043E\u043A
+          a"
+        - "\u041F\u0440\u0438\u0441\u0432\u043E\u0438\u0442\u044C b \u0441\u0441\u044B\u043B\u043A\u0443
+          \u043D\u0430 a"
+        - "\u0418\u0437\u043C\u0435\u043D\u0438\u0442\u044C b[0]"
+        - "\u041F\u043E\u043B\u0443\u0447\u0438\u0442\u044C \u0437\u043D\u0430\u0447\u0435\u043D\u0438\u0435
+          a[0]"
+        - "\u0412\u044B\u0432\u0435\u0441\u0442\u0438 \u0440\u0435\u0437\u0443\u043B\u044C\u0442\u0430\u0442"
+        correctOrder: 0000000001000000020000000300000004000000

@@ -1,0 +1,127 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7673aa27664812140be3c5bd283638fc, type: 3}
+  m_Name: Task Database 9
+  m_EditorClassIdentifier: Assembly-CSharp::TaskDatabase
+  tasks:
+  - rid: 8019473286241190021
+  - rid: 8019473286241190022
+  - rid: 8019473286241190023
+  - rid: 8019473286241190024
+  - rid: 8019473286241190025
+  - rid: 8019473286241190026
+  - rid: 8019473286241190027
+  - rid: 8019473286241190028
+  isRandom: 1
+  references:
+    version: 2
+    RefIds:
+    - rid: 8019473286241190021
+      type: {class: SingleChoiceTaskEntry, ns: , asm: Assembly-CSharp}
+      data:
+        question: "\u0427\u0442\u043E \u0432\u044B\u0432\u0435\u0434\u0435\u0442
+          \u044D\u0442\u043E\u0442 \u043A\u043E\u0434?\nprint(4 + 6 / 2)"
+        options:
+        - 7
+        - 10
+        - 8
+        - 5
+        correctIndex: 0
+    - rid: 8019473286241190022
+      type: {class: SequenceTaskEntry, ns: , asm: Assembly-CSharp}
+      data:
+        question: "\u0420\u0430\u0437\u0431\u0435\u0440\u0438 \u0432\u044B\u043F\u043E\u043B\u043D\u0435\u043D\u0438\u0435
+          \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u044B:\nx = 3\ny = 4\nz
+          = x ** y\nprint(z)"
+        options:
+        - "\u041F\u0440\u0438\u0441\u0432\u043E\u0438\u0442\u044C x = 3"
+        - "\u041F\u0440\u0438\u0441\u0432\u043E\u0438\u0442\u044C y = 4"
+        - "\u0412\u043E\u0437\u0432\u0435\u0441\u0442\u0438 x \u0432 \u0441\u0442\u0435\u043F\u0435\u043D\u044C
+          y"
+        - "\u0412\u044B\u0432\u0435\u0441\u0442\u0438 z"
+        - "\u0421\u043E\u0437\u0434\u0430\u0442\u044C \u043F\u0435\u0440\u0435\u043C\u0435\u043D\u043D\u044B\u0435"
+        correctOrder: 00000000010000000200000003000000
+    - rid: 8019473286241190023
+      type: {class: SingleChoiceTaskEntry, ns: , asm: Assembly-CSharp}
+      data:
+        question: "\u0427\u0442\u043E \u0432\u044B\u0432\u0435\u0434\u0435\u0442
+          \u044D\u0442\u043E\u0442 \u043A\u043E\u0434?\nprint(\"Hi\" * 3)"
+        options:
+        - HiHiHi
+        - Hi3
+        - 3Hi
+        - "\u041E\u0448\u0438\u0431\u043A\u0430"
+        correctIndex: 0
+    - rid: 8019473286241190024
+      type: {class: SequenceTaskEntry, ns: , asm: Assembly-CSharp}
+      data:
+        question: "\u0420\u0430\u0437\u0431\u0435\u0440\u0438 \u0432\u044B\u043F\u043E\u043B\u043D\u0435\u043D\u0438\u0435
+          \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u044B:\na = 10\nb = 4\nc
+          = a // b\nprint(c)"
+        options:
+        - "\u041F\u0440\u0438\u0441\u0432\u043E\u0438\u0442\u044C a = 10"
+        - "\u041F\u0440\u0438\u0441\u0432\u043E\u0438\u0442\u044C b = 4"
+        - "\u0412\u044B\u043F\u043E\u043B\u043D\u0438\u0442\u044C \u0446\u0435\u043B\u043E\u0447\u0438\u0441\u043B\u0435\u043D\u043D\u043E\u0435
+          \u0434\u0435\u043B\u0435\u043D\u0438\u0435"
+        - "\u0412\u044B\u0432\u0435\u0441\u0442\u0438 c"
+        - "\u0421\u043E\u0437\u0434\u0430\u0442\u044C \u043F\u0435\u0440\u0435\u043C\u0435\u043D\u043D\u044B\u0435"
+        correctOrder: 00000000010000000200000003000000
+    - rid: 8019473286241190025
+      type: {class: SingleChoiceTaskEntry, ns: , asm: Assembly-CSharp}
+      data:
+        question: "\u0427\u0442\u043E \u0432\u044B\u0432\u0435\u0434\u0435\u0442
+          \u044D\u0442\u043E\u0442 \u043A\u043E\u0434?\nx = [1, 2, 3]\nprint(len(x))"
+        options:
+        - 2
+        - 3
+        - 4
+        - "\u041E\u0448\u0438\u0431\u043A\u0430"
+        correctIndex: 1
+    - rid: 8019473286241190026
+      type: {class: SequenceTaskEntry, ns: , asm: Assembly-CSharp}
+      data:
+        question: "\u0420\u0430\u0437\u0431\u0435\u0440\u0438 \u0432\u044B\u043F\u043E\u043B\u043D\u0435\u043D\u0438\u0435
+          \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u044B:\nx = 7\ny = 2\nz
+          = x - y\nprint(z)"
+        options:
+        - "\u041F\u0440\u0438\u0441\u0432\u043E\u0438\u0442\u044C x = 7"
+        - "\u041F\u0440\u0438\u0441\u0432\u043E\u0438\u0442\u044C y = 2"
+        - "\u0412\u044B\u0447\u0438\u0441\u043B\u0438\u0442\u044C x - y"
+        - "\u0412\u044B\u0432\u0435\u0441\u0442\u0438 z"
+        - "\u0421\u043E\u0437\u0434\u0430\u0442\u044C \u043F\u0435\u0440\u0435\u043C\u0435\u043D\u043D\u044B\u0435"
+        correctOrder: 00000000010000000200000003000000
+    - rid: 8019473286241190027
+      type: {class: SingleChoiceTaskEntry, ns: , asm: Assembly-CSharp}
+      data:
+        question: "\u0427\u0442\u043E \u0432\u044B\u0432\u0435\u0434\u0435\u0442
+          \u044D\u0442\u043E\u0442 \u043A\u043E\u0434?\nprint(9 % 4)"
+        options:
+        - 1
+        - 2
+        - 3
+        - 0
+        correctIndex: 2
+    - rid: 8019473286241190028
+      type: {class: SequenceTaskEntry, ns: , asm: Assembly-CSharp}
+      data:
+        question: "\u0420\u0430\u0437\u0431\u0435\u0440\u0438 \u0432\u044B\u043F\u043E\u043B\u043D\u0435\u043D\u0438\u0435
+          \u043F\u0440\u043E\u0433\u0440\u0430\u043C\u043C\u044B:\ntext = \"abc\"\nprint(text.upper())"
+        options:
+        - "\u0421\u043E\u0437\u0434\u0430\u0442\u044C \u0441\u0442\u0440\u043E\u043A\u0443"
+        - "\u041F\u0440\u0435\u043E\u0431\u0440\u0430\u0437\u043E\u0432\u0430\u0442\u044C
+          \u0441\u0442\u0440\u043E\u043A\u0443 \u0432 \u0432\u0435\u0440\u0445\u043D\u0438\u0439
+          \u0440\u0435\u0433\u0438\u0441\u0442\u0440"
+        - "\u041F\u043E\u043B\u0443\u0447\u0438\u0442\u044C \u0434\u043B\u0438\u043D\u0443
+          \u0441\u0442\u0440\u043E\u043A\u0438"
+        - "\u0412\u044B\u0432\u0435\u0441\u0442\u0438 \u0440\u0435\u0437\u0443\u043B\u044C\u0442\u0430\u0442"
+        - "\u0420\u0430\u0437\u0431\u0438\u0442\u044C \u0441\u0442\u0440\u043E\u043A\u0443"
+        correctOrder: 000000000100000003000000

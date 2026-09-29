@@ -1,0 +1,92 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7673aa27664812140be3c5bd283638fc, type: 3}
+  m_Name: Task Database 3
+  m_EditorClassIdentifier: Assembly-CSharp::TaskDatabase
+  tasks:
+  - rid: 8019473286241189985
+  - rid: 8019473286241189986
+  - rid: 8019473286241189987
+  - rid: 8019473286241189988
+  - rid: 8019473286241189989
+  - rid: 8019473286241189990
+  references:
+    version: 2
+    RefIds:
+    - rid: 8019473286241189985
+      type: {class: SingleChoiceTaskEntry, ns: , asm: Assembly-CSharp}
+      data:
+        question: "\u0427\u0442\u043E \u0432\u044B\u0432\u0435\u0434\u0435\u0442
+          \u044D\u0442\u043E\u0442 \u043A\u043E\u0434?\nprint(\"5\" * 2)"
+        options:
+        - 10
+        - 55
+        - "\u041E\u0448\u0438\u0431\u043A\u0430"
+        - 5*2
+        correctIndex: 1
+    - rid: 8019473286241189986
+      type: {class: SingleChoiceTaskEntry, ns: , asm: Assembly-CSharp}
+      data:
+        question: "\u0427\u0442\u043E \u0432\u044B\u0432\u0435\u0434\u0435\u0442
+          \u044D\u0442\u043E\u0442 \u043A\u043E\u0434?\nx = 0\nif x:\n    print(\"Yes\")\nelse:\n   
+          print(\"No\")"
+        options:
+        - Yes
+        - No
+        - "\u041E\u0448\u0438\u0431\u043A\u0430"
+        - "\u041D\u0438\u0447\u0435\u0433\u043E"
+        correctIndex: 1
+    - rid: 8019473286241189987
+      type: {class: SingleChoiceTaskEntry, ns: , asm: Assembly-CSharp}
+      data:
+        question: "\u0427\u0442\u043E \u0432\u044B\u0432\u0435\u0434\u0435\u0442
+          \u044D\u0442\u043E\u0442 \u043A\u043E\u0434?\nprint(10 / 3)"
+        options:
+        - 3
+        - 3.33
+        - 3.3333333333333335
+        - "\u041E\u0448\u0438\u0431\u043A\u0430"
+        correctIndex: 2
+    - rid: 8019473286241189988
+      type: {class: SingleChoiceTaskEntry, ns: , asm: Assembly-CSharp}
+      data:
+        question: "\u0427\u0442\u043E \u0432\u044B\u0432\u0435\u0434\u0435\u0442
+          \u044D\u0442\u043E\u0442 \u043A\u043E\u0434?\nprint(10 // 3)"
+        options:
+        - 3
+        - 3.33
+        - 4
+        - "\u041E\u0448\u0438\u0431\u043A\u0430"
+        correctIndex: 0
+    - rid: 8019473286241189989
+      type: {class: SingleChoiceTaskEntry, ns: , asm: Assembly-CSharp}
+      data:
+        question: "\u0427\u0442\u043E \u0432\u044B\u0432\u0435\u0434\u0435\u0442
+          \u044D\u0442\u043E\u0442 \u043A\u043E\u0434?\nx = 5\ny = 10\nprint(x >
+          3 or y < 5)"
+        options:
+        - True
+        - False
+        - "\u041E\u0448\u0438\u0431\u043A\u0430"
+        - "\u041D\u0438\u0447\u0435\u0433\u043E"
+        correctIndex: 0
+    - rid: 8019473286241189990
+      type: {class: SingleChoiceTaskEntry, ns: , asm: Assembly-CSharp}
+      data:
+        question: "\u0427\u0442\u043E \u0432\u044B\u0432\u0435\u0434\u0435\u0442
+          \u044D\u0442\u043E\u0442 \u043A\u043E\u0434?\nx = \"Hello\"\nprint(x[1])"
+        options:
+        - H
+        - e
+        - l
+        - "\u041E\u0448\u0438\u0431\u043A\u0430"
+        correctIndex: 1
